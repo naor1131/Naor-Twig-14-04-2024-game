@@ -1,0 +1,8 @@
+{
+    "pollingFrequency": 1000,
+    "scoreRanges": {
+      "min": 0,
+      "max": 100
+    },
+    "allowedClients": ["client1", "client2"]
+  }
