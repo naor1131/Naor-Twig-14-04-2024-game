@@ -4,7 +4,7 @@ const fs = require("fs");
 
 // Serve static JSON file with game configurations.
 app.get("/config", (req, res) => {
-  fs.readFile("config.json", { encoding: "utf8" }, (err, data) => {
+  fs.readFile("game-config.json", { encoding: "utf8" }, (err, data) => {
     if (err) {
       console.error(err);
       res.status(500).send("Internal Server Error");
